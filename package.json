@@ -1,0 +1,28 @@
+{
+  "name": "power-checkout",
+  "version": "1.0.0",
+  "description": "quickly switch to another branch",
+  "repository": "linqing24/power-checkout",
+  "main": "index.js",
+  "bin": {
+    "pc": "./cli.js"
+  },
+  "scripts": {
+    "test": "pnpm link --global"
+  },
+  "files": [
+		"cli.js"
+	],
+  "engines": {
+		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+	},
+  "keywords": [
+    "checkout",
+    "git",
+    "power",
+    "power-checkout",
+    "power-git"
+  ],
+  "author": "linqing",
+  "license": "MIT"
+}
