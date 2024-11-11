@@ -53,8 +53,7 @@ const checkout = (str) => {
 }
 
 program
-  .name('checkout')
-  .alias('c')
+  .name('power-checkout')
   .arguments('<branch>')
   .description('quickly switch to another branch')
   .action(async (str) => {

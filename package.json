@@ -1,11 +1,11 @@
 {
   "name": "power-checkout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "quickly switch to another branch",
   "repository": "linqing24/power-checkout",
   "main": "index.js",
   "bin": {
-    "pc": "./cli.js"
+    "power-checkout": "./cli.js"
   },
   "scripts": {
     "test": "pnpm link --global"

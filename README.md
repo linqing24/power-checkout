@@ -17,5 +17,5 @@ Switch to the specified branch, first match exactly, secondly match the branch c
 If it is -, switch recently used branch.
 
 ```bash
-pc <string>
+power-checkout <string>
 ```
