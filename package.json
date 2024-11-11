@@ -11,11 +11,11 @@
     "test": "pnpm link --global"
   },
   "files": [
-		"cli.js"
-	],
+    "cli.js"
+  ],
   "engines": {
-		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
-	},
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
   "keywords": [
     "checkout",
     "git",
@@ -24,5 +24,16 @@
     "power-git"
   ],
   "author": "linqing",
-  "license": "MIT"
+  "license": "MIT",
+  "pkg": {
+    "targets": [
+      "node14-linux-x64",
+      "node14-macos-x64",
+      "node14-win-x64"
+    ],
+    "outputPath": "release"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
 }
