@@ -2,7 +2,7 @@
 
 quickly switch to another branch
 
-![preview](./preview.png)
+![preview1](./preview.png)
 
 ## install
 
